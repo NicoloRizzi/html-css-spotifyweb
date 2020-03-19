@@ -48,11 +48,10 @@ ul {
 
 #sidebar .sidebar-top ul li {
   border-left: 3px solid transparent;
-  border-radius: 1px;
 }
 
 #sidebar .sidebar-top ul li:hover {
-  border-left-color: lime;
+  border-left-color: #00fc00;
 }
 
 
@@ -80,7 +79,7 @@ ul {
 #content {
     position: relative;
     flex-grow: 1;
-    background: #000;
+    background: #141921;
 }
 
 .content-top-bar {
@@ -108,10 +107,24 @@ ul {
     /* 90px = height di content-top-bar */
     padding: 90px 15px 30px;
 }
+#content .scrollable ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+#content .scrollable li {
+  margin: 0 10px;
+  border-bottom: 3px solid transparent;
+}
+
+#content .scrollable li:hover {
+  border-color: #00fc00;
+}
 .content-menu {
-    height: 80px; /*debug*/
-    background: #222;
+  /*background-color: red;*/
+
 }
 
 .content-category {
