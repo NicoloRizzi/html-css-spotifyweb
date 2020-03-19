@@ -4,18 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify clone</title>
+    <!-- LINK GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+
+    <!-- LINK CDN DI FONTAWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- LINK STYLE INTERNO -->
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    
+
     <div id="app">
         <!-- Main content -->
         <main id="main-window">
             <!-- Sidebar -->
             <aside id="sidebar">
-                <div class="sidebar-top">Logo e Nav</div>
-
-                <div class="sidebar-bottom">Account</div>
+                <div class="sidebar-top">
+                  <img  id="Logo-Spotify"src="img/logo.svg" alt="Logo Spotify">
+                  <ul>
+                    <li><img src="img/home.svg" alt="Icona Home"><span class="padding-left">Home</span></li>
+                    <li><img src="img/search.svg" alt="Icona Search"><span class="padding-left">Cerca</span></li>
+                    <li><img src="img/libreria.svg" alt="Icona Libreria"><span class="padding-left">La tua libreria</span></li>
+                  </ul>
+                  <h3>PLAYLIST</h3>
+                  <i class="fas fa-plus-square"></i>
+                  <span>Crea Playlist</span>
+                  <ul>
+                    <li>I miei brani di Shazam</li>
+                    <li>Rap</li>
+                    <li>Workout</li>
+                    <li>Classic</li>
+                    <li>Metal</li>
+                    <li>Today's list</li>
+                    <li>Preferiti</li>
+                  </ul>
+                </div>
+                <div class="sidebar-bottom">
+                  <i class="fas fa-arrow-circle-down"></i>
+                  <span>Installa app</span>
+                  <span class="inline-block linea"></span>
+                </div>
             </aside>
 
             <!-- Content -->
