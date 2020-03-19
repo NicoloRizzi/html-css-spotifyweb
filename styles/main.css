@@ -1,22 +1,16 @@
 /*UTILITIES */
 #sidebar .sidebar-top ul img {
   width: 24px;
-  height: 24px;
 }
-.padding-left {
-  padding-left: 15px;
-}
+
 #Logo-Spotify {
-  width: 131px;
-  height: 35px;
-  margin: 15px 0 20px 0;
+  width: 50%;
+  padding: 10px 0 20px 0;
 }
 
 #sidebar .sidebar-top ul li:hover {
   border-left: 3px solid lime;
-  vertical-align: middle;
   border-radius: 1px;
-  padding-left: 15px;
 }
 .inline-block {
   display: block;
@@ -24,8 +18,6 @@
 
 .linea {
   border: 1px solid white;
-  width: 86%;
-  margin: 0 15px;
 }
 
 /* GENERAL */

@@ -9,7 +9,8 @@
 
     <!-- LINK CDN DI FONTAWSOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
+    <!-- LINK AL FILE UTILITIES -->
+    <link rel="stylesheet" href="styles/utilities.css">
     <!-- LINK STYLE INTERNO -->
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -21,16 +22,20 @@
             <!-- Sidebar -->
             <aside id="sidebar">
                 <div class="sidebar-top">
-                  <img  id="Logo-Spotify"src="img/logo.svg" alt="Logo Spotify">
+                  <div class="container-img-logo">
+                    <img class="margin-left" id="Logo-Spotify"src="img/logo.svg" alt="Logo Spotify">
+                  </div>
                   <ul>
-                    <li><img src="img/home.svg" alt="Icona Home"><span class="padding-left">Home</span></li>
-                    <li><img src="img/search.svg" alt="Icona Search"><span class="padding-left">Cerca</span></li>
-                    <li><img src="img/libreria.svg" alt="Icona Libreria"><span class="padding-left">La tua libreria</span></li>
+                    <li><img class="margin-left vertical-align-bottom"src="img/home.svg" alt="Icona Home"><span class="padding-sx">Home</span></li>
+                    <li><img class="margin-left vertical-align-bottom"src="img/search.svg" alt="Icona Search"><span class="padding-sx">Cerca</span></li>
+                    <li><img class="margin-left vertical-align-bottom" src="img/libreria.svg" alt="Icona Libreria"><span class="padding-sx">La tua libreria</span></li>
                   </ul>
-                  <h3>PLAYLIST</h3>
-                  <i class="fas fa-plus-square"></i>
-                  <span>Crea Playlist</span>
+                  <h3 class="margin-left padding">PLAYLIST</h3>
                   <ul>
+                    <li><i class="fas fa-plus-square margin-left font-size"></i>
+                    <span class="vertical-align-super">Crea Playlist</span></li>
+                  </ul>
+                  <ul class="margin-left">
                     <li>I miei brani di Shazam</li>
                     <li>Rap</li>
                     <li>Workout</li>
