@@ -51,9 +51,15 @@
   border: 1px solid white;
 }
 
-
-
 .cerchio {
   border-radius: 1px;
   border: 1px solid white;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px 30px;
+  color: white;
+  border: 2px solid;
 }
