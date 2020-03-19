@@ -3,6 +3,10 @@
   margin-left: 15px;
 }
 
+.margin-dx-sx {
+  margin: 0 15px;
+}
+
 .padding-sx {
   padding-left: 5px;
 }
@@ -21,4 +25,35 @@
 }
 .vertical-align-super {
   vertical-align: super;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.font-size-14px {
+  font-size: 14px;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.inline-block {
+  display: block;
+}
+
+.linea {
+  border: 1px solid white;
+}
+
+
+
+.cerchio {
+  border-radius: 1px;
+  border: 1px solid white;
 }
