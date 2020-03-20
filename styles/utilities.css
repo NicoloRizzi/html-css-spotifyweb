@@ -72,10 +72,6 @@
   text-transform: uppercase;
 }
 
-/*.width-img {
-  width: calc((100%/6) - 10px);
-} */
-
 .album {
   width: calc((100%/6) - 10px);
 }
@@ -87,4 +83,8 @@
 
 .display-block {
   display: block;
+}
+
+.text-center {
+  text-align: center;
 }
