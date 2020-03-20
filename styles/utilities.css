@@ -110,3 +110,12 @@
 .content-category h4 {
   padding-top: 10px;
 }
+
+.border-radius-50 {
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+section {
+  margin: 15px 0;
+}
