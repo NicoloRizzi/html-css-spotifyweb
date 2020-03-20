@@ -119,3 +119,33 @@
 section {
   margin: 15px 0;
 }
+
+.blocco-info-brano {
+  display: flex;
+  padding: 5px;
+}
+
+
+.blocco-img {
+  border: 3px solid green;
+  max-width: 60px;
+  margin-right: 5px;
+}
+.blocco-img img {
+  width: 100%;
+}
+
+.blocco-preferiti::before {
+  content: '\f004';
+  font-family: "Font Awesome 5 Free";
+  margin-right: 5px;
+  border: 2px solid blue;
+
+}
+.blocco-preferiti::after {
+  content: '\f07b';
+  font-family: "Font Awesome 5 Free";
+  vertical-align: middle;
+  border: 2px solid green;
+
+}
