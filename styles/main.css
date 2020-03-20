@@ -37,6 +37,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 #sidebar .sidebar-top ul img {
   width: 24px;
 }
@@ -127,8 +128,7 @@ ul {
 }
 
 .content-category {
-  /*display: flex;
-  flex-direction: column; */
+
 }
 
 .container-img {
