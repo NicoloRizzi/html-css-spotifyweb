@@ -47,12 +47,12 @@
   line-height: 2;
 }
 
-.inline-block {
-  display: block;
-}
-
 .linea {
   border: 1px solid white;
+}
+
+.block {
+  display: block;
 }
 
 .cerchio {
@@ -76,7 +76,16 @@
   width: calc((100%/6) - 10px);
 }
 
+.album2 {
+  width: calc(100% /6);
+}
+
 .album img {
+  width: 100%;
+  display: block;
+}
+
+.album2 img {
   width: 100%;
   display: block;
 }

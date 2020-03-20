@@ -137,6 +137,11 @@ ul {
   justify-content: space-between;
 }
 
+.container-img2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
 /* BOTTOM PLAYER */
 #player {
