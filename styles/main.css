@@ -123,12 +123,18 @@ ul {
   border-color: #00fc00;
 }
 .content-menu {
-  /*background-color: red;*/
 
 }
 
 .content-category {
-    height: 200px; /* Debug */
+  /*display: flex;
+  flex-direction: column; */
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
