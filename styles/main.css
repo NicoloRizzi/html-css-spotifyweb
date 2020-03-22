@@ -183,10 +183,35 @@ ul {
   padding-left: 15px;
 }
 
+/* BLOCCO MENU CONTROLLER */
 .menu-controller {
   border: 3px dotted green;
 
 }
+
+.menu-controller i {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.controller-panel {
+  border: 2px solid blue;
+}
+
+.timing {
+  border: 3px dotted yellow;
+}
+
 .status-bar {
-  border: 3px dotted red;
+  border: 2px solid white;
+  width: 60%;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.timing span:first-child {
+  vertical-align: middle;
+}
+.timing span:last-child {
+  vertical-align: middle;
 }

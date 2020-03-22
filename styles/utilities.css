@@ -94,6 +94,10 @@
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .text-center {
   text-align: center;
 }
@@ -119,8 +123,6 @@
 section {
   margin: 15px 0;
 }
-
-
 
 
 .span-font-style {
