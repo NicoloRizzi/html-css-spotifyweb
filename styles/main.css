@@ -65,6 +65,7 @@ ul {
 /*SIDEBAR-BOTTOM */
 .sidebar-bottom {
     background: #000;
+    padding-bottom: 30px;
 }
 
 .sidebar-bottom img {
@@ -146,7 +147,7 @@ ul {
 /* BOTTOM PLAYER */
 #player {
   /*height: 90px;*/
-  background: #333;
+  background: #272727;
   display: flex;
   /*align-items: center;*/
   border: 3px dotted red;
@@ -156,14 +157,13 @@ ul {
 .current-track {
   display: flex;
   align-items: center;
-  border: 3px dotted blue;
   padding-left: 10px;
+  border: 3px dotted yellow;
 
 }
 
 .blocco-img {
   max-width: 60px;
-  border: 3px dotted yellow;
 }
 
 .blocco-img img {
@@ -171,11 +171,9 @@ ul {
 }
 
 .blocco-preferiti {
-  border: 3px dotted violet;
 }
 
 .blocco-titolo-autore {
-  border: 3px dotted green;
   padding: 0 10px;
 }
 
@@ -195,33 +193,29 @@ ul {
 }
 
 .controller-panel {
-  border: 3px dotted blue;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .timing {
-  display: flex;
-  border: 3px dotted yellow;
-  justify-content: space-between;
-  flex-direction: row;
+  /*border: 3px dotted yellow; */
 }
 
 .status-bar {
-  border: 2px solid grey;
+  border: 2px solid transparent;
   border-radius: 8px;
   width: 451px;
-  height: 13px;
+  height: 7px;
   align-self: center;
+  background-color: #525252;
+}
+.status-bar:hover {
+  content: '\f111';
+  background-color: #00fc00;
+  font-family: 'Font Awesome 5 Free'
 }
 
-.timing span:first-child {
-  vertical-align: middle;
-}
-.timing span:last-child {
-  vertical-align: middle;
-}
 
 .listening {
   display: inline-block;
@@ -236,4 +230,18 @@ ul {
 }
 .controller-panel-extra i {
   padding: 0 10px;
+}
+
+.status-bar-2 {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: 83px;
+  height: 7px;
+  align-self: center;
+  background-color: #525252;
+}
+.status-bar-2:hover {
+  content: '\f111';
+  background-color: #00fc00;
+  font-family: 'Font Awesome 5 Free'
 }
