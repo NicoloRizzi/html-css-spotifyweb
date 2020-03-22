@@ -229,6 +229,7 @@ ul {
   display: flex;
   /*border: 3px dotted white;*/
   align-items: center;
+  margin-right: 10px;
 }
 .controller-panel-extra i {
   padding: 0 10px;
@@ -245,4 +246,7 @@ ul {
   content: '\f111';
   background-color: #00fc00;
   font-family: 'Font Awesome 5 Free'
+}
+@media (min-width: 768px) (max-width: 992px) {
+
 }
