@@ -186,8 +186,7 @@ ul {
 /* BLOCCO MENU CONTROLLER */
 .menu-controller {
   border: 3px dotted green;
-  width: 100%;
-
+  width: auto;
 }
 
 .menu-controller i {
@@ -196,7 +195,10 @@ ul {
 }
 
 .controller-panel {
-  border: 2px solid blue;
+  border: 3px dotted blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .timing {
@@ -223,5 +225,10 @@ ul {
 
 /*CONTROLLER PANEL EXTRA */
 .controller-panel-extra {
+  display: flex;
   border: 3px dotted white;
+  align-items: center;
+}
+.controller-panel-extra i {
+  padding: 0 10px;
 }
