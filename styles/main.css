@@ -202,13 +202,18 @@ ul {
 }
 
 .timing {
+  display: flex;
   border: 3px dotted yellow;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .status-bar {
   border: 2px solid grey;
-  border-radius: 2px;
-  width: 100%;
+  border-radius: 8px;
+  width: 451px;
+  height: 13px;
+  align-self: center;
 }
 
 .timing span:first-child {
