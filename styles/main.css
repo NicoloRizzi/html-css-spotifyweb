@@ -148,20 +148,21 @@ ul {
   height: 90px;
   background: #333;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
+  border: 3px dotted red;
+  justify-content: flex-start;
 }
 
 .current-track {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  border: 3px dotted blue;
 
 }
 
 .blocco-img {
   max-width: 60px;
-  margin-right: 5px;
-  margin-left: 15px;
+  border: 3px dotted yellow;
 }
 
 .blocco-img img {
@@ -171,12 +172,21 @@ ul {
 .blocco-preferiti {
   display: flex;
   align-items: center;
+  border: 3px dotted violet;
 }
 
 .blocco-titolo-autore {
-  padding-left: 15px;
+  border: 3px dotted green;
 }
 
 .blocco-preferiti i:nth-child(2)  {
   padding-left: 15px;
+}
+
+.menu-controller {
+  border: 3px dotted green;
+
+}
+.status-bar {
+  border: 3px dotted red;
 }
