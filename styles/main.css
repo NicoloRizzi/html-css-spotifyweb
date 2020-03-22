@@ -114,6 +114,7 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 20px;
 }
 
 #content .scrollable li {
@@ -150,7 +151,7 @@ ul {
   background: #272727;
   display: flex;
   /*align-items: center;*/
-  border: 3px dotted red;
+  /*border: 3px dotted red;*/
   justify-content: space-between;
 }
 
@@ -158,12 +159,12 @@ ul {
   display: flex;
   align-items: center;
   padding-left: 10px;
-  border: 3px dotted yellow;
+  /*border: 3px dotted yellow;*/
 
 }
 
 .blocco-img {
-  max-width: 60px;
+  max-width: 62px;
 }
 
 .blocco-img img {
@@ -183,7 +184,7 @@ ul {
 
 /* BLOCCO MENU CONTROLLER */
 .menu-controller {
-  border: 3px dotted green;
+  /*border: 3px dotted green;*/
   width: auto;
 }
 
@@ -200,6 +201,7 @@ ul {
 
 .timing {
   /*border: 3px dotted yellow; */
+  padding-bottom: 10px;
 }
 
 .status-bar {
@@ -213,7 +215,7 @@ ul {
 .status-bar:hover {
   content: '\f111';
   background-color: #00fc00;
-  font-family: 'Font Awesome 5 Free'
+  font-family: 'Font Awesome 5 Free';
 }
 
 
@@ -225,7 +227,7 @@ ul {
 /*CONTROLLER PANEL EXTRA */
 .controller-panel-extra {
   display: flex;
-  border: 3px dotted white;
+  /*border: 3px dotted white;*/
   align-items: center;
 }
 .controller-panel-extra i {
@@ -237,7 +239,6 @@ ul {
   border-radius: 8px;
   width: 83px;
   height: 7px;
-  align-self: center;
   background-color: #525252;
 }
 .status-bar-2:hover {
